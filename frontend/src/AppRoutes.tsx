@@ -6,6 +6,8 @@ const AppRoutes =()=>{
             <Route path="/" element={<span>home</span>}/>
             <Route path="/user-profile" element={<span>user-profile-page</span>}/>
             <Route path="*" element={<Navigate to="/" />}/>
+            <Route path="about" element={<span>span</span>}/>
+            
             
         </Routes>
     )
